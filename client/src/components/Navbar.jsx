@@ -78,6 +78,7 @@ const Navbar = () => {
             fontSize='sm'
             fontWeight={400}
             variant='link'
+            _hover={{ textDecoration: 'none', bg: 'gray.200' }}
           >
             Sign In
           </Button>
@@ -88,7 +89,7 @@ const Navbar = () => {
             display={{ base: 'none', md: 'inline-flex' }}
             fontSize='sm'
             fontWeight={600}
-            _hvoer={{ bg: 'orange.400' }}
+            _hover={{ bg: 'orange.400' }}
             bg='orange.500'
             color='white'
           >
